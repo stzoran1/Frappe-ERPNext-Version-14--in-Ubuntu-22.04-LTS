@@ -20,7 +20,8 @@ A complete Guide to Install Frappe/ERPNext version 14  in Ubuntu 22.04 LTS
 
 Ensure Firewall is properly set and non root user is added:
 
-      https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04
+      
 
 ### STEP 1 Install git
     sudo apt-get install git
