@@ -206,7 +206,12 @@ Now press (Ctrl-X) to exit
     sudo apt install certbot python3-certbot-nginx
     sudo certbot -d {domain_name} --register-unsafely-without-email
     
-   for auto renew the certificate
+   for auto renew the certificate check if certbot.timer is installed
+
+         sudo systemctl status certbot.timer
+
+
+   to check manually:
    
     sudo certbot renew --dry-run
 
