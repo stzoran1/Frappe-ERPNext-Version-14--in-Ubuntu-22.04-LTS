@@ -189,14 +189,14 @@ Now press (Ctrl-X) to exit
     sudo bench setup production dcode-frappe
     bench restart
 
-#### If bench restart is not worked run the following command again with all Questions Yes
+### If bench restart is not worked run the following command again with all Questions Yes
     
     sudo bench setup production dcode-frappe
 
 #### If above command not worked then reboot server and try it again
 
     
-#### if js and css file is not loading on login window run the following command
+### If js and css file is not loading on login window run the following command
 
     sudo chmod o+x /home/dcode-frappe
 
