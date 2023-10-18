@@ -208,7 +208,7 @@ Now press (Ctrl-X) to exit
     
    for auto renew the certificate check if certbot.timer is installed
 
-         sudo systemctl status certbot.timer
+     sudo systemctl status certbot.timer
 
 
    to check manually:
