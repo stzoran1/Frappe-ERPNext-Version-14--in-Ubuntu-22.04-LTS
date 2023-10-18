@@ -152,7 +152,7 @@ Now press (Ctrl-X) to exit
     
     bench --version
 
-### STEP 13 Create a new user
+### STEP 13 Create a new user (only if you are logged as root user, if you completed Step 0 this is not required)
     
     sudo adduser dcode-frappe
     sudo usermod -aG sudo dcode-frappe
