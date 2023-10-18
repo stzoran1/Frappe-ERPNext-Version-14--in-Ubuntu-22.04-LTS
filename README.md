@@ -201,7 +201,7 @@ Now press (Ctrl-X) to exit
 #### STEP 18 SSL certificate fot https
     
     sudo apt install certbot python3-certbot-nginx
-    certbot -d {domain_name} --register-unsafely-without-email
+    sudo certbot -d {domain_name} --register-unsafely-without-email
     
    for auto renew the certificate
    
